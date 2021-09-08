@@ -1,2 +1,2 @@
 # usereditableelements
-Cool arts of a website #1
+Cool parts of a website #1
