@@ -1,0 +1,77 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background: #333;
+    color: #fff;
+    font-family: Lato;
+    font-size: 14px;
+    background-image: url('/myprojects/usereditableelements/media/images/blurred-bg.jpg');
+    background-size: 1500px 991px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.main-div {
+    width: 30%;
+    margin: 0px auto;
+    margin-top: 100px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 50px #444;
+    
+}
+
+.image-div img{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.content-div {
+    padding: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.content-div h1 {
+    font-size: 36px;
+    outline: 0px;
+    font-weight: 200;
+}
+
+.content-div h1:focus {
+    outline: 1px dashed;
+}
+
+.content-div p {
+    font-size: 14px;
+    font-weight: 400;
+    outline: 0px;
+}
+
+.content-div p:focus {
+    outline: 1px dashed #ccc;
+}
+
+.upload-btn{
+    color: #333;
+    padding: 10px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.7);
+    transform: translateY(-100%);
+    font-size: 14px;
+    display: none;
+
+}
+
+.upload-btn:hover{
+    background: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+#file {
+    display:none
+}
+
